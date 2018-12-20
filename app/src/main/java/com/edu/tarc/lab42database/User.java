@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 public class User {
     @PrimaryKey
     @NonNull
-    private String phone; //Phone is PK and Not Null
+    private String phone;
 
     private String firstName;
     private String lastName;
